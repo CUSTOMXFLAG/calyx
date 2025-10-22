@@ -1,0 +1,81 @@
+body {
+  font-size: 16px;
+  color: #212529;
+  font-family: "Bebas Neue", "Arial", sans-serif;
+}
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: rgba(255,255,255,0);
+  font-family: "bebas Neue", "Arial", sans-serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Bebas neue", "Arial", sans-serif;
+}
+
+.btn {
+  font-size: 19px;
+  font-weight: 800;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-family: "bebas Neue",Arial,sans-serif;
+  align: center;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-white);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-black);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #ffed4b;
+}
+
+.post-preview > a {
+  color: #ffffff;
+}
+
+postbanner {
+  width: 250px;
+  /*height: 500px;*/
+  object-fit: cover;
+  /*height: auto;*/
+  overflow: hidden;
+  position: absolute;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #fbff2c;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#cal .date-sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+}
+
